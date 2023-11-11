@@ -1,4 +1,4 @@
-package dev.joshjh;
+package dev.joshjh.givenergyjava;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -11,7 +11,7 @@ import org.apache.hc.core5.http.Method;
 import org.apache.hc.core5.http.message.BasicHeader;
 
 public abstract class GivEnergyAPI {
-    protected final static String apiKeyFile = "givenergyjava/givEnergyAPIKey.txt";
+    protected final static String apiKeyFile = "givEnergyAPIKey.txt";
     
     public final static String apiKey = loadFileValue(apiKeyFile);
     public static final String baseURL = "https://api.givenergy.cloud/v1/";
@@ -27,6 +27,7 @@ public abstract class GivEnergyAPI {
         return readline;
         
     } catch (IOException e) {
+        e.printStackTrace();
         throw new RuntimeException(String.format("APIKey file not found %s", GivEnergyAPI.apiKeyFile));
     }
     }

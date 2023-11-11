@@ -1,4 +1,4 @@
-package dev.joshjh;
+package dev.joshjh.givenergyjava;
 
 public class Main {
     public static void main(String[] args) {

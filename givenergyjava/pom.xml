@@ -18,12 +18,12 @@
         <snapshotRepository>
             <id>josh-maven-repo-snapshots</id>
             <name>Joshs Maven Repo</name>
-            <url>http://localhost:2002/snapshots</url>
+            <url>http://orzo:2002/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>josh-maven-repo-snapshots</id>
             <name>Joshs Maven Repo</name>
-            <url>http://localhost:2002/snapshots</url>
+            <url>http://orzo:2002/snapshots</url>
         </repository>
     </distributionManagement>
 
@@ -47,7 +47,7 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20230618</version>
+            <version>20231013</version>
            
         </dependency>
 

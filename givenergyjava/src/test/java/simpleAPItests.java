@@ -5,14 +5,14 @@ import java.net.URI;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import dev.joshjh.BatteryData;
-import dev.joshjh.EventData;
-import dev.joshjh.GivEnergyAPI;
-import dev.joshjh.Inverter;
-import dev.joshjh.InverterData;
-import dev.joshjh.InverterInterface;
-import dev.joshjh.MeterData;
-import dev.joshjh.SystemData;
+import dev.joshjh.givenergyjava.EventData;
+import dev.joshjh.givenergyjava.BatteryData;
+import dev.joshjh.givenergyjava.GivEnergyAPI;
+import dev.joshjh.givenergyjava.Inverter;
+import dev.joshjh.givenergyjava.InverterData;
+import dev.joshjh.givenergyjava.InverterInterface;
+import dev.joshjh.givenergyjava.MeterData;
+import dev.joshjh.givenergyjava.SystemData;
 
 public class simpleAPItests {
     public static void main(String[] args) {

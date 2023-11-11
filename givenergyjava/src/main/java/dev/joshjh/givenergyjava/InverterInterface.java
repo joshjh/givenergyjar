@@ -1,4 +1,4 @@
-package dev.joshjh;
+package dev.joshjh.givenergyjava;
 import java.io.IOException;
 
 import org.json.*;

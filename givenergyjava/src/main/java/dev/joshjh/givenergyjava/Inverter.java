@@ -1,4 +1,4 @@
-package dev.joshjh;
+package dev.joshjh.givenergyjava;
 
 import java.io.IOException;
 import java.net.URI;
@@ -10,7 +10,7 @@ import org.apache.hc.core5.http.Header;
 import org.json.JSONObject;
 
 public class Inverter extends GivEnergyAPI implements InverterInterface{
-    protected final static String inverterSerialFile = "givenergyjava/inverterSerial.txt";
+    protected final static String inverterSerialFile = "inverterSerial.txt";
     protected final static String inverterSerial = Inverter.loadFileValue(inverterSerialFile);
     public static URI inverterURI = GivEnergyAPI.baseUri.resolve(URI.create("inverter/" + inverterSerial +"/"));
       

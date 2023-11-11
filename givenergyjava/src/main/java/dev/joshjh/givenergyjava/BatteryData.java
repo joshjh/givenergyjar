@@ -1,4 +1,4 @@
-package dev.joshjh;
+package dev.joshjh.givenergyjava;
 
 import org.json.JSONObject;
 
